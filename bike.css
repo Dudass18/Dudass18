@@ -2,11 +2,18 @@
     font-size: 25px;
 }
 .exemplo01{
-    font-size:  4em;
+    font-size:  3em;
 }
 .exemplo02{
-    font-size: 8em;
+    font-size: 3em;
 }
 .exemplo03{
-    font-size: 10em;
+    font-size: 5em;
+}
+    body {
+    background: url("https://img.elo7.com.br/product/zoom/2E6BF19/stitch-havai-biscuit.jpg");
+}
+body {
+    background: rgb(rgb(183, 0, 255), green, blue);
+    background: linear-gradient(50deg), rgba(249,225,238,1) 10%, rgba(198,231,249,1) 100%);
 }
