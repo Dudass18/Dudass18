@@ -14,6 +14,21 @@
     background: url("https://img.elo7.com.br/product/zoom/2E6BF19/stitch-havai-biscuit.jpg");
 }
 body {
-    background: rgb(rgb(183, 0, 255), green, blue);
+    background: rgb(rgb(183, 0, 255), rgb(217, 255, 0), rgb(255, 0, 0));
     background: linear-gradient(50deg), rgba(249,225,238,1) 10%, rgba(198,231,249,1) 100%);
 }
+body {
+}
+p.dotted {border-style: dotted}
+p.dashed {border-style: dashed}
+p.solid {border-style: solid}
+p.double {border-style: double}
+p.groove {border-style: groove}
+p.ridge {border-style: ridge}
+p.inset {border-style: inset}
+p.outset {border-style: outset}
+p.none {border-style: none}
+p.hidden {border-style: hidden}
+p.mix {border-style: dotted dashed solid double}
+
+
