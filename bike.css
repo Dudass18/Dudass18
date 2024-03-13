@@ -15,10 +15,9 @@
 }
 body {
     background: rgb(rgb(183, 0, 255), rgb(217, 255, 0), rgb(255, 0, 0));
-    background: linear-gradient(50deg), rgba(249,225,238,1) 10%, rgba(198,231,249,1) 100%);
+    background: linear-gradient(50deg, rgb(255, 0, 136) 10%, rgb(0, 166, 255), 100%);
 }
-body {
-}
+
 p.dotted {border-style: dotted}
 p.dashed {border-style: dashed}
 p.solid {border-style: solid}
@@ -30,5 +29,11 @@ p.outset {border-style: outset}
 p.none {border-style: none}
 p.hidden {border-style: hidden}
 p.mix {border-style: dotted dashed solid double}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
