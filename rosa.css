@@ -1,8 +1,16 @@
 body {
     background: linear-gradient(rgb(98, 0, 255),rgb(234, 0, 255));
+    display: flex;
+    justify-content: center;
 }
 form {
     display: flex;
     flex-direction: column;
     width: 500px;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    gap: 125px;
+    justify-content: center;
 }
