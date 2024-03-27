@@ -14,3 +14,8 @@ form {
     gap: 125px;
     justify-content: center;
 }
+.flex{
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
