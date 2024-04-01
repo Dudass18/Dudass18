@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(rgb(98, 0, 255),rgb(234, 0, 255));
+    background: linear-gradient(rgb(255, 0, 234),rgb(255, 0, 0));
     display: flex;
     justify-content: center;
 }
@@ -17,5 +17,10 @@ form {
 .flex{
     display: flex;
     gap: 125px;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    gap: 140px;
     justify-content: center;
 }
