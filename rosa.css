@@ -8,19 +8,21 @@ form {
     flex-direction: column;
     width: 500px;
     justify-content: center;
+    background-color: aquamarine;
 }
 .flex{
     display: flex;
-    gap: 125px;
+    gap: 40px;
     justify-content: center;
 }
-.flex{
-    display: flex;
-    gap: 125px;
-    justify-content: center;
+.laco{
+    background-color: aquamarine;
+    border-radius: 100px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.flex{
-    display: flex;
-    gap: 140px;
-    justify-content: center;
+.freefire{
+    background-color: rgb(250, 137, 0);
+    border-radius: 20px;
+    margin-block-end: 50px;
 }
