@@ -2,6 +2,9 @@ body {
     background: linear-gradient(rgb(255, 0, 234),rgb(255, 0, 0));
     display: flex;
     justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
 }
 form {
     display: flex;
@@ -9,6 +12,7 @@ form {
     width: 500px;
     justify-content: center;
     background-color: aquamarine;
+    align-items: center;
 }
 .flex{
     display: flex;
@@ -16,13 +20,13 @@ form {
     justify-content: center;
 }
 .laco{
-    background-color: aquamarine;
+    background-color: rgb(161, 19, 218);
     border-radius: 100px;
     margin: 0 auto;
     overflow: hidden;
 }
-.freefire{
-    background-color: rgb(250, 137, 0);
+.minhapagina{
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-block-end: 50px;
 }
