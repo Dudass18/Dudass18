@@ -9,10 +9,12 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    padding: 50px;
     justify-content: center;
     background-color: aquamarine;
     align-items: center;
+    position: relative;
+
 }
 .flex{
     display: flex;
@@ -20,13 +22,19 @@ form {
     justify-content: center;
 }
 .laco{
-    background-color: rgb(161, 19, 218);
+    position: absolute;
+    background-color: rgb(218, 19, 128);
     border-radius: 100px;
     margin: 0 auto;
     overflow: hidden;
+    top: -35px;
+    padding: 10px;
 }
 .minhapagina{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     margin-block-end: 50px;
+}
+button{
+    background-color: rgb(226, 43, 119);
 }
