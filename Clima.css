@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+.Sol{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+.retangulo{
+    display: flex;
+    position: relative;
+    top: 350px;
+    
+}
